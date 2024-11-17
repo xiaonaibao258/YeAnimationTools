@@ -142,11 +142,7 @@ class AnimationTools(QWidget):
         self.ql02 = QLabel('0', parent=tab2)
         self.ql02.setGeometry(QRect(self.hr*70, self.hr*150, self.hr*70, self.hr*20))
         
-        self.ref02 = QLabel('工作时间:<br>'
-                            '9:30-12:00<br>'
-                            '13.30-18:30<br>'
-                            '20:00-23:00', parent=tab1)
-        self.ref02.setGeometry(QRect(self.hr*10, self.hr*90, self.hr*120, self.hr*50))
+
         
         self.ref03 = QLabel('V1.0.0.20240830', parent=tab3)
         self.ref03.setGeometry(QRect(self.hr*10, self.hr*120, self.hr*300, self.hr*30))
